@@ -1,2 +1,0 @@
-# LesChoupettes
-Les Choupettes Corpo
