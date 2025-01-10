@@ -16,7 +16,7 @@
             <a class="nav-link" href="#Team">Notre gameplay</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#achievement">Medias</a>
+            <a class="nav-link" href="#achievement">Manifeste</a>
           </li>
         </ul>
         <span class="nav-item">

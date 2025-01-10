@@ -3,7 +3,7 @@
   <Home />
   <About />
   <Gameplay />
-  <projects />
+  <Manifest />
   <contact />
   <Footer />
 </template>
@@ -13,7 +13,7 @@ import NavBar from "@/components/Utils/NavBar";
 import Footer from "@/components/Utils/Footer";
 import Home from "@/components/Views/Home";
 import About from "@/components/Views/About";
-import Projects from "@/components/Views/Projects";
+import Manifest from "@/components/Views/Manifest";
 import Contact from "@/components/Views/Contact";
 import Gameplay from "@/components/Views/Gameplay";
 
@@ -23,7 +23,7 @@ export default {
   components: {
     Gameplay,
     Contact,
-    Projects,
+    Manifest,
     About,
     Home,
     NavBar,
