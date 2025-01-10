@@ -12,13 +12,13 @@
         <div class="d-flex flex-row align-content-xl-between">
           <div class="text-center">
             <p>Justine, qui s'occupe de la partie graphique et du marketing.</p>
-            <img class="img-fluid max-width: 100%" src="/assets/images/Ju.jpg" alt="Portrait Justine"/>
+            <img class="img-fluid max-width: 100%" src="/assets/images/Ju.jpg" alt="Portrait Justine" />
           </div>
           <div class="test fa-backspace invisible"></div>
           <div class="d-flex flex-row ">
             <div class="text-center">
               <p>Jordan, qui s'occupe de la partie développement.</p>
-              <img class="img-fluid max-width: 100%" src="/assets/images/Picture.jpeg" alt="Portrait Jordan"/>
+              <img class="img-fluid max-width: 100%" src="/assets/images/Picture.jpeg" alt="Portrait Jordan" />
             </div>
           </div>
         </div>
@@ -33,6 +33,4 @@ export default {
 }
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

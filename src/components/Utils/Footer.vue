@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-lg-6 col-md-12 col-sm-12">
           <a
-              href="https://www.captaincontrat.com/contrats-commerciaux-cgv/cgv-cgu-cga/cgu-conditions-generales-utilisation">
+            href="https://www.captaincontrat.com/contrats-commerciaux-cgv/cgv-cgu-cga/cgu-conditions-generales-utilisation">
             Conditions générale d'utilisation</a>
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12">
