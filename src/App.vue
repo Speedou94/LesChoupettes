@@ -2,7 +2,7 @@
   <NavBar />
   <Home />
   <About />
-  <team />
+  <Gameplay />
   <projects />
   <contact />
   <Footer />
@@ -15,13 +15,13 @@ import Home from "@/components/Views/Home";
 import About from "@/components/Views/About";
 import Projects from "@/components/Views/Projects";
 import Contact from "@/components/Views/Contact";
-import Team from "@/components/Views/Team";
+import Gameplay from "@/components/Views/Gameplay";
 
 
 export default {
   name: "App.vue",
   components: {
-    Team,
+    Gameplay,
     Contact,
     Projects,
     About,
@@ -33,6 +33,4 @@ export default {
 
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
