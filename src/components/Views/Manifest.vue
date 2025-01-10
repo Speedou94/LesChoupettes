@@ -12,7 +12,7 @@
           <div class="card mb-4" style="width: 100%">
             <img src="/assets/images/.png" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h2 class="card-text">Comment nous contacter ?</h2>
+              <h2 class="card-text">Les informations importantes !</h2>
               <div class="btnlink"><a class="btn-outline-reg" href="https://robertsspaceindustries.com/orgs/LCSSC"
                   target="_blank">
                   Lien RSI
