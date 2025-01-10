@@ -7,19 +7,32 @@
             <div class="section-title">Notre gameplay</div>
             <h2>Toujours en équipe, toujours dans la bonne humeur</h2>
             <!-- Ajout du target="_blank" pour ouvrir le lien dans un nouvel onglet -->
-            <a class="btn-outline-reg" href="https://fleetyards.net/fleets/lcs/ships/" target="_blank">Notre flotte</a>
+            <a
+              class="btn-outline-reg"
+              href="https://fleetyards.net/fleets/lcs/ships/"
+              target="_blank"
+              >Notre flotte</a
+            >
           </div>
         </div>
         <div class="d-flex flex-row align-content-xl-between">
           <div class="text-center">
             <p>Le Salvage, grande partie de notre gameplay</p>
-            <img class="img-fluid max-width: 100%" src="/assets/images/Salvage.png" alt="Vultures pendant du Salvage" />
+            <img
+              class="img-fluid same-size"
+              src="/assets/images/Salvage.png"
+              alt="Vultures pendant du Salvage"
+            />
           </div>
           <div class="test fa-backspace invisible"></div>
-          <div class="d-flex flex-row ">
+          <div class="d-flex flex-row">
             <div class="text-center">
               <p>Le combat au sol, ou FPS</p>
-              <img class="img-fluid max-width: 100%" src="/assets/images/FPS.jpg" alt="Débarquement de joueurs armés" />
+              <img
+                class="img-fluid same-size"
+                src="/assets/images/FPS.jpg"
+                alt="Débarquement de joueurs armés"
+              />
             </div>
           </div>
         </div>
@@ -30,8 +43,14 @@
 
 <script>
 export default {
-  name: "Team"
-}
+  name: "Team",
+};
 </script>
 
-<style scoped></style>
+<style scoped>
+.same-size {
+  width: 100%;
+  height: auto;
+  max-width: 500px; /* Vous pouvez ajuster cette valeur selon vos besoins */
+}
+</style>
