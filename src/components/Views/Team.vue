@@ -5,20 +5,21 @@
         <div class="d-flex flex-row bd-highlight mb-auto lef">
           <div class="text-container">
             <div class="section-title">Notre gameplay</div>
-            <h2>Une équipe curieuse et invesitie</h2>
-            <a class="btn-outline-reg" href="#">Details</a>
+            <h2>Toujours en équipe, toujours dans la bonne humeur</h2>
+            <!-- Ajout du target="_blank" pour ouvrir le lien dans un nouvel onglet -->
+            <a class="btn-outline-reg" href="https://fleetyards.net/fleets/lcs/ships/" target="_blank">Notre flotte</a>
           </div>
         </div>
         <div class="d-flex flex-row align-content-xl-between">
           <div class="text-center">
-            <p>Justine, qui s'occupe de la partie graphique et du marketing.</p>
-            <img class="img-fluid max-width: 100%" src="/assets/images/Ju.jpg" alt="Portrait Justine" />
+            <p>Le Salvage, grande partie de notre gameplay</p>
+            <img class="img-fluid max-width: 100%" src="/assets/images/Salvage.png" alt="Vultures pendant du Salvage" />
           </div>
           <div class="test fa-backspace invisible"></div>
           <div class="d-flex flex-row ">
             <div class="text-center">
-              <p>Jordan, qui s'occupe de la partie développement.</p>
-              <img class="img-fluid max-width: 100%" src="/assets/images/Picture.jpeg" alt="Portrait Jordan" />
+              <p>Le combat au sol, ou FPS</p>
+              <img class="img-fluid max-width: 100%" src="/assets/images/FPS.jpg" alt="Débarquement de joueurs armés" />
             </div>
           </div>
         </div>
