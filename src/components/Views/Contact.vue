@@ -16,8 +16,8 @@
               Que vous soyez un explorateur aguerri en quête de nouvelles
               découvertes, un chasseur de primes cherchant l'adrénaline de la
               traque, un commerçant plein d’ambition ou un ouvrier spécialisé,
-              il y a une place pour vous parmi nous. En rejoignant Les
-              Choupettes, vous aurez accès à une communauté dynamique et
+              il y a une place pour vous parmi nous. <strong>En rejoignant Les
+                Choupettes</strong>, vous aurez accès à une communauté dynamique et
               coopérative, où le partage des connaissances et l'entraide sont au
               cœur de nos valeurs. Que vous soyez un.e joueur.euse chevronné.e
               ou débutant.e , nous sommes là pour vous soutenir à chaque étape
@@ -29,9 +29,7 @@
           <img src="/assets/images/contact-image.jpg" alt="Contact Image" class="img-fluid" />
         </div>
         <div class="form-group">
-          <button id="apply-button" type="submit" class="btn btn-danger" @click="redirectToExternalLink">
-            Postuler
-          </button>
+          <a class="btn btn-danger" href="https://discord.gg/5Hu8aafm" target="_blank">Engagez-vous !</a><br />
         </div>
       </div>
     </div>
@@ -42,11 +40,9 @@
 export default {
   name: "Contact",
   methods: {
-    redirectToExternalLink() {
-      window.location.href = 'https://example.com'; // Remplacez par l'URL de redirection souhaitée
-    }
-  }
-};
+    // Ajoutez ici les méthodes nécessaires pour gérer le formulaire
+  },
+}
 </script>
 
 <style scoped>
@@ -74,6 +70,7 @@ export default {
   /* Support pour Safari */
   border-radius: 10px;
   /* Ajoute des coins arrondis */
+  margin-bottom: 15rem;
 }
 
 .text-container {
