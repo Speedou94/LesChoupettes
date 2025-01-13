@@ -11,9 +11,9 @@
             <div class="Infos text-left">
               <h2 class="card-text">Les informations importantes !</h2>
               <div class="btnlink">
-                <a class="btn btn-danger" href="https://robertsspaceindustries.com/orgs/LCSSC" target="_blank">Lien
-                  RSI</a><br />
-                <a class="btn btn-danger" href="https://discord.gg/aUmVFhrXR2" target="_blank">Discord</a><br />
+                <a class="btn btn-success" href="https://robertsspaceindustries.com/orgs/LCSSC" target="_blank">Lien
+                  RSI</a>
+                <a class="btn btn-success" href="https://discord.gg/aUmVFhrXR2" target="_blank">Discord</a><br />
               </div>
               <p>
                 <strong>Archétype :</strong> Organisation <br />
@@ -35,8 +35,9 @@
               <p class="text-center">
                 <strong>Cette charte est appelée à évoluer selon les avancées du jeu, tout en respectant l’esprit qui y
                   est déjà présent.</strong> <br />
-                <strong>Conditions d’admission :</strong> <br />
-                <a href="#apply-button"><strong>Remplir le formulaire de candidature</strong></a><br />
+                <strong>Conditions d’admission :</strong> <br /><br />
+                <a class="btn btn-success" href="https://forms.gle/1eyGnrm4Zh3gCsSb8" target="_blank">Formulaire de
+                  candidature</a><br /><br />
                 L’organisation accepte les joueurs de tous styles et de tous les niveaux d’engagement.
                 Nous n’imposons pas d’âge minimum, du moment que les échanges sont suffisamment mâtures et
                 respectueux.<br /><br />
@@ -70,6 +71,7 @@
         </div>
       </div>
     </div>
+
   </section>
 </template>
 
@@ -81,8 +83,22 @@ export default {
 
 <style scoped>
 /* Styles pour le conteneur principal */
-.header {
-  padding-top: 5rem;
+
+.Row {
+  background-color: rgba(255, 255, 255, 0.1);
+  /* Couleur de fond semi-transparente */
+  border: none;
+  /* Supprime les bordures */
+  text-align: left;
+  /* Aligne le texte à gauche */
+  padding: 1rem;
+  /* Ajoute un padding pour le contenu */
+  backdrop-filter: blur(10px);
+  /* Applique un flou à l'arrière-plan */
+  -webkit-backdrop-filter: blur(10px);
+  /* Support pour Safari */
+  border-radius: 10px;
+  /* Ajoute des coins arrondis */
 }
 
 /* Styles pour les cartes */
@@ -113,5 +129,22 @@ export default {
 .card-img-bottom {
   width: 100%;
   height: auto;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.1);
+  /* Couleur de fond semi-transparente */
+  border: none;
+  /* Supprime les bordures */
+  text-align: left;
+  /* Aligne le texte à gauche */
+  padding: 1rem;
+  /* Ajoute un padding pour le contenu */
+  backdrop-filter: blur(10px);
+  /* Applique un flou à l'arrière-plan */
+  -webkit-backdrop-filter: blur(10px);
+  /* Support pour Safari */
+  border-radius: 10px;
+  /* Ajoute des coins arrondis */
 }
 </style>

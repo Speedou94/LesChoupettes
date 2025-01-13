@@ -5,7 +5,7 @@
         <h1 class="title">Nos missions</h1>
         <h2 class="title2">Toujours en équipe, toujours dans la bonne humeur</h2>
         <!-- Ajout du target="_blank" pour ouvrir le lien dans un nouvel onglet -->
-        <a class="btn btn-danger my-4" href="https://fleetyards.net/fleets/lcs/ships/" target="_blank">Notre flotte</a>
+        <a class="btn btn-primary my-4" href="https://fleetyards.net/fleets/lcs/ships/" target="_blank">Notre flotte</a>
       </header>
       <article class="Gameplayimg">
         <div class="mb-4">
@@ -50,10 +50,20 @@ export default {
   flex-direction: column;
   align-items: center;
   margin-top: 20rem;
-}
-
-.Gameplayimg {
-  margin-bottom: 20rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  /* Couleur de fond semi-transparente */
+  border: none;
+  /* Supprime les bordures */
+  text-align: left;
+  /* Aligne le texte à gauche */
+  padding: 1rem;
+  /* Ajoute un padding pour le contenu */
+  backdrop-filter: blur(10px);
+  /* Applique un flou à l'arrière-plan */
+  -webkit-backdrop-filter: blur(10px);
+  /* Support pour Safari */
+  border-radius: 10px;
+  /* Ajoute des coins arrondis */
 }
 
 .title,
