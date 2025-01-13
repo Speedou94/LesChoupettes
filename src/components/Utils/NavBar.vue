@@ -20,7 +20,7 @@
           </li>
         </ul>
         <span class="nav-item">
-          <a class="btn-solid-sm" href="#contact">Rejoignez-nous !</a>
+          <a class="btn btn-danger" href="#contact">Rejoignez-nous !</a>
         </span>
       </div>
     </div>

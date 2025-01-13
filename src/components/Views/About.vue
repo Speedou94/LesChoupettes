@@ -49,12 +49,6 @@
               lendemains meilleurs.
             </p>
           </div>
-          <div class="col-lg-6"></div>
-          <div class="form-group">
-            <button id="apply-button" type="submit" class="form-control-submit-button" @click="redirectToExternalLink">
-              Postuler
-            </button>
-          </div>
         </div>
       </div>
     </div>
@@ -115,15 +109,6 @@ export default {
       this.isModalOpen = false;
       this.selectedPhoto = {};
     },
-    methods: {
-      redirectToExternalLink() {
-        window.open(
-          "https://docs.google.com/forms/d/e/1FAIpQLSfC7zu3Rfzg11N2ZsFUWVI4xn-L_9ejrBltvhlQkB_fWYmcmw/viewform",
-          "_blank"
-        );
-      },
-    }
-
   },
 };
 </script>
@@ -134,6 +119,21 @@ export default {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  margin-top: 20rem;
+    background-color: rgba(255, 255, 255, 0.1);
+      /* Couleur de fond semi-transparente */
+      border: none;
+      /* Supprime les bordures */
+      text-align: left;
+      /* Aligne le texte à gauche */
+      padding: 1rem;
+      /* Ajoute un padding pour le contenu */
+      backdrop-filter: blur(10px);
+      /* Applique un flou à l'arrière-plan */
+      -webkit-backdrop-filter: blur(10px);
+      /* Support pour Safari */
+      border-radius: 10px;
+      /* Ajoute des coins arrondis */
 }
 
 /* Styles pour la galerie */
@@ -192,6 +192,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: transparent;
 }
 
 .modal-content img {

@@ -8,8 +8,12 @@ html {
     width: 100%; /* Définit la largeur à 100% */
     height: 100%; /* Définit la hauteur à 100% */
     font: 400 1rem/1.625rem "Open Sans", sans-serif; /* Définit la police, la taille et la hauteur de ligne */
-    color: #5e6576; /* Définit la couleur du texte */
+    color: #ffffff; /* Définit la couleur du texte */
     padding-top: 4rem; /* Ajoute un padding en haut pour éviter le chevauchement avec la barre de navigation */
+    background-image: url('/assets/images/wallpaper.jpg'); /* Définit l'image de fond */
+    background-size: cover; /* Ajuste la taille de l'image pour couvrir tout l'écran */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    background-attachment: fixed; /* Fixe l'image de fond pour qu'elle ne défile pas avec le contenu */
 }
 
 /* Style pour les boutons avec la classe .btn-solid-reg lorsqu'ils sont survolés */
@@ -57,7 +61,7 @@ html {
 .navbar .nav-item .nav-link {
     padding-top: 0.625rem; /* Ajoute un padding en haut */
     padding-bottom: 0.625rem; /* Ajoute un padding en bas */
-    color: #5e6576; /* Définit la couleur du texte */
+    color: #fdfeff; /* Définit la couleur du texte */
     text-decoration: none; /* Supprime la décoration du texte */
     transition: all 0.2s ease; /* Ajoute une transition pour toutes les propriétés */
 }
@@ -89,7 +93,6 @@ html {
     margin-top: 0.25rem; /* Ajoute une marge en haut */
     margin-bottom: 0.25rem; /* Ajoute une marge en bas */
     border: none; /* Supprime la bordure */
-    background-color: #fcfafb; /* Définit la couleur de fond */
 }
 
 /* Styles pour les éléments du menu déroulant */
@@ -105,7 +108,6 @@ html {
 
 /* Styles pour les éléments du menu déroulant lorsqu'ils sont survolés */
 .navbar .dropdown-item:hover {
-    background-color: #fcfafb; /* Définit la couleur de fond */
     color: #0092ff; /* Définit la couleur du texte */
 }
 
@@ -115,7 +117,6 @@ html {
     height: 1px; /* Définit la hauteur à 1px */
     margin: 0.5rem auto 0.5rem auto; /* Ajoute une marge en haut et en bas */
     border: none; /* Supprime la bordure */
-    background-color: #d1d1d1; /* Définit la couleur de fond */
 }
 
 /* Styles pour le bouton de la barre de navigation */
@@ -173,7 +174,6 @@ html {
         /* Navigation */
         .navbar {
             padding-top: 1.75rem;
-            background-color: #fcfafb;
             box-shadow: none;
             transition: all 0.2s;
         }
@@ -181,7 +181,6 @@ html {
         .navbar.top-nav-collapse {
             padding-top: 0.5rem;
             padding-bottom: 0.5rem;
-            background-color: #fcfafb;
             box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
         }
 
@@ -289,7 +288,6 @@ html {
             display: inline-block;
             width: 298px;
             vertical-align: top;
-            background: none;
             border: none;
         }
 

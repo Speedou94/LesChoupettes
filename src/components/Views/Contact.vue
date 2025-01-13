@@ -25,9 +25,11 @@
             </p>
           </div>
         </div>
-        <div class="col-lg-6"></div>
+        <div class="col-lg-6">
+          <img src="/assets/images/contact-image.jpg" alt="Contact Image" class="img-fluid" />
+        </div>
         <div class="form-group">
-          <button id="apply-button" type="submit" class="form-control-submit-button" @click="redirectToExternalLink">
+          <button id="apply-button" type="submit" class="btn btn-danger" @click="redirectToExternalLink">
             Postuler
           </button>
         </div>
@@ -41,12 +43,9 @@ export default {
   name: "Contact",
   methods: {
     redirectToExternalLink() {
-      window.open(
-        "https://docs.google.com/forms/d/e/1FAIpQLSfC7zu3Rfzg11N2ZsFUWVI4xn-L_9ejrBltvhlQkB_fWYmcmw/viewform",
-        "_blank"
-      );
-    },
-  },
+      window.location.href = 'https://example.com'; // Remplacez par l'URL de redirection souhaitée
+    }
+  }
 };
 </script>
 
@@ -58,10 +57,33 @@ export default {
 
 .row {
   display: flex;
-  flex-direction: column;
-  align-content: space-around;
-  flex-wrap: nowrap;
-  justify-content: flex-end;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.1);
+  /* Couleur de fond semi-transparente */
+  border: none;
+  /* Supprime les bordures */
+  text-align: left;
+  /* Aligne le texte à gauche */
+  padding: 1rem;
+  /* Ajoute un padding pour le contenu */
+  backdrop-filter: blur(10px);
+  /* Applique un flou à l'arrière-plan */
+  -webkit-backdrop-filter: blur(10px);
+  /* Support pour Safari */
+  border-radius: 10px;
+  /* Ajoute des coins arrondis */
+}
+
+.text-container {
+  flex: 1;
+  /* Prend tout l'espace disponible */
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  /* Assure que l'image est responsive */
 }
 </style>

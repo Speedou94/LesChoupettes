@@ -1,31 +1,28 @@
 <template>
-  <div id="Gameplay" class="basic-2">
-    <div class="container">
-      <div class="display-6">
-        <div class="d-flex flex-row bd-highlight mb-auto lef">
-          <div class="text-container">
-            <div class="section-title">Notre gameplay</div>
-            <h2>Toujours en équipe, toujours dans la bonne humeur</h2>
-            <!-- Ajout du target="_blank" pour ouvrir le lien dans un nouvel onglet -->
-            <a class="btn-outline-reg" href="https://fleetyards.net/fleets/lcs/ships/" target="_blank">Notre flotte</a>
-          </div>
+  <section id="Gameplay" class="basic-2">
+    <div class="container text-center">
+      <header class="mb-4">
+        <h1 class="title">Nos missions</h1>
+        <h2 class="title2">Toujours en équipe, toujours dans la bonne humeur</h2>
+        <!-- Ajout du target="_blank" pour ouvrir le lien dans un nouvel onglet -->
+        <a class="btn btn-danger my-4" href="https://fleetyards.net/fleets/lcs/ships/" target="_blank">Notre flotte</a>
+      </header>
+      <article class="Gameplayimg">
+        <div class="mb-4">
+          <h2>Le Salvage, grande partie de notre gameplay</h2>
+          <img class="img-fluid same-size" src="/assets/images/Salvage.png" alt="Vultures pendant du Salvage" />
         </div>
-        <div class="d-flex flex-row align-content-xl-between">
-          <div class="text-center">
-            <p>Le Salvage, grande partie de notre gameplay</p>
-            <img class="img-fluid same-size" src="/assets/images/Salvage.png" alt="Vultures pendant du Salvage" />
-          </div>
-          <div class="test fa-backspace invisible"></div>
-          <div class="d-flex flex-row">
-            <div class="text-center">
-              <p>Le combat au sol, ou FPS</p>
-              <img class="img-fluid same-size" src="/assets/images/FPS.jpg" alt="Débarquement de joueurs armés" />
-            </div>
-          </div>
+        <div class="mb-4">
+          <h2>Le combat au sol, ou FPS</h2>
+          <img class="img-fluid same-size" src="/assets/images/FPS.jpg" alt="Débarquement de joueurs armés" />
         </div>
-      </div>
+        <div class="mb-4">
+          <h2>Le combat dans les airs</h2>
+          <img class="img-fluid same-size" src="/assets/images/Dogfight.jpg" alt="Combat de vaisseaux spaciaux" />
+        </div>
+      </article>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
@@ -35,22 +32,33 @@ export default {
 </script>
 
 <style scoped>
+/* Styles pour les images pour qu'elles aient la même taille */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20rem;
+}
+
+.Gameplayimg {
+  margin-bottom: 20rem;
+}
+
+.title,
+.title2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .same-size {
   width: 100%;
   height: auto;
-  max-width: 500px;
-  /* Vous pouvez ajuster cette valeur selon vos besoins */
-}
-.basic-2 .text-container {
-  margin-bottom: 4rem;
-  padding-bottom: 4rem;
 }
 
-.basic-2 h2 {
-  margin-bottom: 1.75rem;
-}
-
-.basic-2 p {
-  margin-bottom: 2rem;
+.btn-danger {
+  margin: 2rem 0;
+  width: 20rem;
+  text-align: center;
 }
 </style>

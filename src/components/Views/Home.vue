@@ -1,5 +1,5 @@
 <template>
-  <header id="home" class="header bg-body">
+  <header id="home" class="header">
     <div class="container">
       <div class="row">
         <div class="row-lg-6 col-xl-6">
