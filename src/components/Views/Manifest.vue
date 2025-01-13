@@ -13,7 +13,7 @@
               <div class="btnlink">
                 <a class="btn btn-danger" href="https://robertsspaceindustries.com/orgs/LCSSC" target="_blank">Lien
                   RSI</a><br />
-                <a class="btn btn-danger" href="https://discord.gg/5Hu8aafm" target="_blank">Discord</a><br />
+                <a class="btn btn-danger" href="https://discord.gg/aUmVFhrXR2" target="_blank">Discord</a><br />
               </div>
               <p>
                 <strong>Archétype :</strong> Organisation <br />
@@ -26,7 +26,6 @@
                 <strong>ALIGNEMENT ET OBJECTIFS :</strong> "Chez les Choupettes,
               </p>
             </div>
-            <img src="/assets/images/image1.png" class="card-img-bottom" alt="Image 1" />
           </div>
         </div>
         <div class="col-md-4">
@@ -45,14 +44,9 @@
                 L’organisation s’engage à traiter avec respect et égalité ses membres et sympathisants. Il est attendu
                 en retour le même respect entre membres, sympathisants, alliés et envers le staff.
                 Les règles de bonne conduite et de politesse sont la base de toutes communications.
-                Sont évidemment interdits - à l’oral comme à l’écrit - les messages à caractère raciste, pornographique,
-                les insultes et textes visant à inciter au conflit ou alimenter des dramas de tout ordre, ingame ou IRL,
-                notamment religieux ou politiques, ainsi que toutes demandes d’aides d’actions illégales ou à l’encontre
-                des règlements de RSI.<br /><br />
 
               </p>
             </div>
-            <img src="/assets/images/image2.png" class="card-img-bottom" alt="Image 2" />
           </div>
         </div>
         <!-- Ajoutez d'autres cartes ici si nécessaire -->
@@ -60,12 +54,18 @@
           <div class="card mb-4 border-4">
             <div class="Rangs - text-left">
               <h2 class="card-text text-center">Les Rangs</h2>
-              <p class="text-center"> <strong>Alignement et éthique ingame :</strong>
-                Toute activité individuelle qui impliquerait de nuire à autrui (vole, piratage, agression, griefing…)
-                est <strong>formellement proscrite</strong> au sein des Choupettes.
+              <p class="text-center"> <strong>Pourquoi Les Choupettes ?</strong>
+                Unis par une fraternité indéfectible, ils forment une famille, une meute prête à se sacrifier pour l’un
+                des siens. Ils se battent non pour l’appât du gain, mais par conviction, pour un monde où les plus
+                faibles ne seront plus piétinés par les puissants. Ils restent discrets mais attirent immanquablement
+                vers eux, de nouveaux parias en quête d’un destin plus noble.
+                Le House of the Choupettes sillonne les étoiles, tel un phare d’espoir dans l’immensité du cosmos,
+                laissant dans son sillage un souffle de liberté et une promesse de lendemains meilleurs.
+                Car au-delà de leurs combats et de leurs victoires, ce groupe d’hommes et de femmes incarnent l’idéal
+                d’une humanité meilleure, où la compassion et la solidarité surpassent la soif de pouvoir, l’avarice et
+                la cruauté.
               </p>
             </div>
-            <img src="/assets/images/image2.png" class="card-img-bottom" alt="Image 2" />
           </div>
         </div>
       </div>
@@ -82,31 +82,31 @@ export default {
 <style scoped>
 /* Styles pour le conteneur principal */
 .header {
-  padding-top: 4rem;
+  padding-top: 5rem;
 }
 
 /* Styles pour les cartes */
 .card {
   background-color: rgba(255, 255, 255, 0.1);
-    /* Couleur de fond semi-transparente */
-    border: none;
-    /* Supprime les bordures */
-    text-align: left;
-    /* Aligne le texte à gauche */
-    padding: 1rem;
-    /* Ajoute un padding pour le contenu */
-    backdrop-filter: blur(10px);
-    /* Applique un flou à l'arrière-plan */
-    -webkit-backdrop-filter: blur(10px);
-    /* Support pour Safari */
-    border-radius: 10px;
-    /* Ajoute des coins arrondis */
+  /* Couleur de fond semi-transparente */
+  border: none;
+  /* Supprime les bordures */
+  text-align: left;
+  /* Aligne le texte à gauche */
+  padding: 1rem;
+  /* Ajoute un padding pour le contenu */
+  backdrop-filter: blur(10px);
+  /* Applique un flou à l'arrière-plan */
+  -webkit-backdrop-filter: blur(10px);
+  /* Support pour Safari */
+  border-radius: 10px;
+  /* Ajoute des coins arrondis */
 }
 
 /* Styles pour les liens */
 .btnlink .btn {
   display: block;
-  margin-bottom: 0.5rem;
+  margin-top: 3rem;
 }
 
 /* Styles pour les images */

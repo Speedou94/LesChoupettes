@@ -34,8 +34,8 @@ html {
     bottom: 0; /* Définit la position en bas à 0 */
     left: 100%; /* Positionne l'élément hors de l'écran à gauche */
     width: 100%; /* Définit la largeur à 100% */
-    padding-right: 1rem; /* Ajoute un padding à droite */
-    padding-left: 1rem; /* Ajoute un padding à gauche */
+    padding-right: 0rem; /* Ajoute un padding à droite */
+    padding-left: 0rem; /* Ajoute un padding à gauche */
     overflow-y: auto; /* Ajoute un défilement vertical si nécessaire */
     visibility: hidden; /* Cache l'élément */
     background-color: #fcfafb; /* Définit la couleur de fond */
