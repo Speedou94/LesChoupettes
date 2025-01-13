@@ -10,13 +10,13 @@
             <a class="nav-link active" aria-current="page" href="#home">Accueil</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#skills">Qui sommes-nous ?</a>
+            <a class="nav-link" href="#About">Qui sommes-nous ?</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#Team">Notre gameplay</a>
+            <a class="nav-link" href="#Gameplay">Notre gameplay</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#achievement">Manifeste</a>
+            <a class="nav-link" href="#Manifest">Manifeste</a>
           </li>
         </ul>
         <span class="nav-item">

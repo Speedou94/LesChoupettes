@@ -1,5 +1,5 @@
 <template>
-  <div id="skills" class="basic-1">
+  <div id="About" class="basic-1">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 col-xl-7">
