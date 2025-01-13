@@ -29,7 +29,7 @@
           <img src="/assets/images/LCSLCS.png" alt="Contact Image" class="img-fluid" />
         </div>
         <div class="form-group">
-          <a class="btn btn-danger" href="https://discord.gg/5Hu8aafm" target="_blank">Engagez-vous !</a><br />
+          <a class="btn btn-primary" href="https://discord.gg/5Hu8aafm" target="_blank">Engagez-vous !</a><br />
         </div>
       </div>
     </div>
