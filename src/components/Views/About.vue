@@ -48,7 +48,12 @@
               de
               lendemains meilleurs.
             </p>
-            <a class="btn-solid-reg" href="#contact">Nous rejoindre</a>
+          </div>
+          <div class="col-lg-6"></div>
+          <div class="form-group">
+            <button id="apply-button" type="submit" class="form-control-submit-button" @click="redirectToExternalLink">
+              Postuler
+            </button>
           </div>
         </div>
       </div>
@@ -109,8 +114,17 @@ export default {
     closeModal() {
       this.isModalOpen = false;
       this.selectedPhoto = {};
+    },
+    methods: {
+      redirectToExternalLink() {
+        window.open(
+          "https://docs.google.com/forms/d/e/1FAIpQLSfC7zu3Rfzg11N2ZsFUWVI4xn-L_9ejrBltvhlQkB_fWYmcmw/viewform",
+          "_blank"
+        );
+      },
     }
-  }
+
+  },
 };
 </script>
 
@@ -189,5 +203,17 @@ export default {
   border-radius: 8px;
   margin: auto;
   /* Assure que l'image est centrée même si elle est plus petite que la fenêtre */
+}
+
+.basic-1 .image-container {
+  margin-bottom: 4rem;
+}
+
+.basic-1 h2 {
+  margin-bottom: 1.75rem;
+}
+
+.basic-1 p {
+  margin-bottom: 2rem;
 }
 </style>

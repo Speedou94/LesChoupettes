@@ -30,7 +30,7 @@
 
 <script>
 export default {
-  name: "Team",
+  name: "Gameplay",
 };
 </script>
 
@@ -40,5 +40,17 @@ export default {
   height: auto;
   max-width: 500px;
   /* Vous pouvez ajuster cette valeur selon vos besoins */
+}
+.basic-2 .text-container {
+  margin-bottom: 4rem;
+  padding-bottom: 4rem;
+}
+
+.basic-2 h2 {
+  margin-bottom: 1.75rem;
+}
+
+.basic-2 p {
+  margin-bottom: 2rem;
 }
 </style>
