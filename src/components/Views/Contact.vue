@@ -26,7 +26,7 @@
           </div>
         </div>
         <div class="col-lg-6">
-          <img src="/assets/images/JoinUs.png" alt="Contact Image" class="img-fluid" />
+          <img src="/assets/images/LCSLCS.png" alt="Contact Image" class="img-fluid" />
         </div>
         <div class="form-group">
           <a class="btn btn-primary" href="https://discord.gg/5Hu8aafm" target="_blank">Engagez-vous !</a><br />
