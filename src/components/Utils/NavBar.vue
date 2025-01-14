@@ -1,26 +1,29 @@
 <template>
   <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-light" aria-label="Main navigation">
     <div class="container">
-      <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+      <button class="navbar-toggler p-0 border-0" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+      <div class="collapse navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav ms-auto navbar-nav-scroll">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#home">Accueil</a>
+            <router-link class="nav-link" to="/home">Accueil</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#About">Qui sommes-nous ?</a>
+            <router-link class="nav-link" to="/home/about">Qui sommes-nous ?</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#Gameplay">Notre gameplay</a>
+            <router-link class="nav-link" to="/home/gameplay">Notre gameplay</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#Manifest">Manifeste</a>
+            <router-link class="nav-link" to="/home/manifest">Manifeste</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/home/contact">Contact</router-link>
           </li>
         </ul>
         <span class="nav-item">
-          <a class="btn btn-primary" href="#contact">Rejoignez-nous !</a>
+          <router-link class="btn btn-danger" to="/home/contact">Rejoignez-nous !</router-link>
         </span>
       </div>
     </div>
@@ -29,25 +32,15 @@
 
 <script>
 export default {
-  name: "NavBar",
-}
+  name: "NavBar"
+};
 </script>
 
 <style scoped>
-.navbar {
-  background-color: rgba(255, 255, 255, 0.1);
-  /* Couleur de fond semi-transparente */
-  border: none;
-  /* Supprime les bordures */
-  text-align: left;
-  /* Aligne le texte à gauche */
-  padding: 1rem;
-  /* Ajoute un padding pour le contenu */
-  backdrop-filter: blur(10px);
-  /* Applique un flou à l'arrière-plan */
-  -webkit-backdrop-filter: blur(10px);
-  /* Support pour Safari */
-  border-radius: 10px;
-  /* Ajoute des coins arrondis */
+/* Ajoutez des styles pour l'état ouvert du menu burger */
+.offcanvas-collapse.open {
+  display: block;
+  visibility: visible;
+  transform: translateX(0);
 }
 </style>
