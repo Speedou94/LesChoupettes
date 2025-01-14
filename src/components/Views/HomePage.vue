@@ -1,11 +1,12 @@
 <template>
   <div class="home-page">
     <video autoplay muted loop id="background-video">
-      <source src="/path/to/your/video.mp4" type="video/mp4">
+      <source src="/assets/video/SCTrailer.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
     <div class="content">
-      <img src="/path/to/your/logo.png" alt="Logo" class="logo">
+      <img src="/assets/images/LCSB.png" alt="LCS Logo" class="logo">
+      <img src="/assets/images/LCSLogo.png" alt="LCS Logo" class="logo">
       <button class="btn btn-primary" @click="enterSite">Entrer sur le site</button>
     </div>
   </div>
@@ -24,9 +25,11 @@ export default {
 
 <style scoped>
 .home-page {
-  position: relative;
-  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
+  height: 100%;
   overflow: hidden;
 }
 
@@ -41,11 +44,27 @@ export default {
 }
 
 .content {
+  display: flex;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.content2 {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
 }
 
 .logo {
