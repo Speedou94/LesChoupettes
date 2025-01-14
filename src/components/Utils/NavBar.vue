@@ -7,23 +7,20 @@
       <div class="collapse navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav ms-auto navbar-nav-scroll">
           <li class="nav-item">
-            <router-link class="nav-link" to="/home">Accueil</router-link>
+            <a class="nav-link" href="#home">Accueil</a>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/home/about">Qui sommes-nous ?</router-link>
+            <a class="nav-link" href="#about">Qui sommes-nous ?</a>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/home/gameplay">Notre gameplay</router-link>
+            <a class="nav-link" href="#gameplay">Notre gameplay</a>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/home/manifest">Manifeste</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class="nav-link" to="/home/contact">Contact</router-link>
+            <a class="nav-link" href="#manifest">Manifeste</a>
           </li>
         </ul>
         <span class="nav-item">
-          <router-link class="btn btn-danger" to="/home/contact">Rejoignez-nous !</router-link>
+          <a class="btn btn-danger" href="#contact">Rejoignez-nous !</a>
         </span>
       </div>
     </div>
@@ -42,5 +39,12 @@ export default {
   display: block;
   visibility: visible;
   transform: translateX(0);
+}
+</style>
+
+<style>
+/* Ajoutez ce CSS globalement, par exemple dans votre fichier styles.css */
+html {
+  scroll-behavior: smooth;
 }
 </style>
