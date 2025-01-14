@@ -1,21 +1,3 @@
-setTimeout(function(){ 
-window.onscroll = function () {
-	scrollFunction();
-	scrollFunctionBTT(); // back to top button
-};
-
-window.onload = function () {
-	scrollFunction();
-};
-
-function scrollFunction() {
-	if (document.documentElement.scrollTop > 30) {
-		document.getElementById("navbarExample").classList.add("top-nav-collapse");
-	} else if ( document.documentElement.scrollTop < 30 ) {
-		document.getElementById("navbarExample").classList.remove("top-nav-collapse");
-	}
-}
-
 // Navbar on mobile
 let elements = document.querySelectorAll(".nav-link:not(.dropdown-toggle)");
 

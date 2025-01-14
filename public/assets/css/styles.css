@@ -2,149 +2,131 @@
 /*     Corps          */
 /**********************/
 
-/* Applique des styles de base au corps et à l'élément HTML */
 body,
 html {
-    width: 100%; /* Définit la largeur à 100% */
-    height: 100%; /* Définit la hauteur à 100% */
-    font: 400 1rem/1.625rem "Open Sans", sans-serif; /* Définit la police, la taille et la hauteur de ligne */
-    color: #ffffff; /* Définit la couleur du texte */
-    padding-top: 4rem; /* Ajoute un padding en haut pour éviter le chevauchement avec la barre de navigation */
-    background-image: url('/assets/images/wallpaper.jpg'); /* Définit l'image de fond */
-    background-size: cover; /* Ajuste la taille de l'image pour couvrir tout l'écran */
-    background-repeat: no-repeat; /* Empêche la répétition de l'image */
-    background-attachment: fixed; /* Fixe l'image de fond pour qu'elle ne défile pas avec le contenu */
+    width: 100%;
+    height: 100%;
+    font: 400 1rem/1.625rem "Open Sans", sans-serif;
+    color: #ffffff;
+    padding-top: 4rem;
+    background-image: url('/assets/images/wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-/* Style pour les boutons avec la classe .btn-solid-reg lorsqu'ils sont survolés */
 .btn-solid-reg:hover {
-    background-color: transparent; /* Définit la couleur de fond à transparent */
-    color: #0092ff; /* Définit la couleur du texte */
-    text-decoration: none; /* Supprime la décoration du texte */
+    background-color: transparent;
+    color: #0092ff;
+    text-decoration: none;
 }
 
 /**********************/
 /*     Navigation     */
 /**********************/
 
-/* Styles pour le menu offcanvas (menu qui se déplace depuis le côté) */
 .offcanvas-collapse {
-    position: fixed; /* Positionne l'élément de manière fixe */
-    top: 3.25rem; /* Ajuste la hauteur entre le haut de la page et le menu offcanvas */
-    bottom: 0; /* Définit la position en bas à 0 */
-    left: 100%; /* Positionne l'élément hors de l'écran à gauche */
-    width: 100%; /* Définit la largeur à 100% */
-    padding-right: 0rem; /* Ajoute un padding à droite */
-    padding-left: 0rem; /* Ajoute un padding à gauche */
-    overflow-y: auto; /* Ajoute un défilement vertical si nécessaire */
-    visibility: hidden; /* Cache l'élément */
-    background-color: #fcfafb; /* Définit la couleur de fond */
-    transition: visibility .3s ease-in-out, -webkit-transform .3s ease-in-out; /* Ajoute des transitions pour la visibilité et la transformation */
-    transition: transform .3s ease-in-out, visibility .3s ease-in-out; /* Ajoute des transitions pour la visibilité et la transformation */
-    transition: transform .3s ease-in-out, visibility .3s ease-in-out, -webkit-transform .3s ease-in-out; /* Ajoute des transitions pour la visibilité et la transformation */
+    position: fixed;
+    top: 3.25rem;
+    bottom: 0;
+    left: 100%;
+    width: 100%;
+    padding-right: 0rem;
+    padding-left: 0rem;
+    overflow-y: auto;
+    visibility: hidden;
+    background-color: #fcfafb;
+    transition: visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
+    transition: transform .3s ease-in-out, visibility .3s ease-in-out;
+    transition: transform .3s ease-in-out, visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
 }
 
-/* Styles pour le menu offcanvas lorsqu'il est ouvert */
 .offcanvas-collapse.open {
-    visibility: visible; /* Rend l'élément visible */
-    -webkit-transform: translateX(-100%); /* Déplace l'élément sur l'écran */
-    transform: translateX(-100%); /* Déplace l'élément sur l'écran */
+    visibility: visible;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
 }
 
-/* Styles pour les éléments de la barre de navigation */
 .navbar .navbar-nav {
-    margin-top: 0.75rem; /* Ajoute une marge en haut */
-    margin-bottom: 0.5rem; /* Ajoute une marge en bas */
+    margin-top: 0.75rem;
+    margin-bottom: 0.5rem;
 }
 
-/* Styles pour les liens de la barre de navigation */
 .navbar .nav-item .nav-link {
-    padding-top: 0.625rem; /* Ajoute un padding en haut */
-    padding-bottom: 0.625rem; /* Ajoute un padding en bas */
-    color: #fdfeff; /* Définit la couleur du texte */
-    text-decoration: none; /* Supprime la décoration du texte */
-    transition: all 0.2s ease; /* Ajoute une transition pour toutes les propriétés */
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    color: #fdfeff;
+    text-decoration: none;
+    transition: all 0.2s ease;
 }
 
-/* Styles pour les liens de la barre de navigation lorsqu'ils sont actifs ou survolés */
 .navbar .nav-item.dropdown.show .nav-link,
 .navbar .nav-item .nav-link:hover,
 .navbar .nav-item .nav-link.active {
-    color: #0092ff; /* Définit la couleur du texte */
+    color: #0092ff;
 }
 
-/* Styles pour le menu déroulant de la barre de navigation */
 .navbar .dropdown .dropdown-menu {
-    animation: fadeDropdown 0.2s; /* Ajoute une animation de fondu */
+    animation: fadeDropdown 0.2s;
 }
 
-/* Animation de fondu pour le menu déroulant */
 @keyframes fadeDropdown {
     0% {
-        opacity: 0; /* Début de l'animation avec une opacité de 0 */
+        opacity: 0;
     }
     100% {
-        opacity: 1; /* Fin de l'animation avec une opacité de 1 */
+        opacity: 1;
     }
 }
 
-/* Styles pour le menu déroulant */
 .navbar .dropdown-menu {
-    margin-top: 0.25rem; /* Ajoute une marge en haut */
-    margin-bottom: 0.25rem; /* Ajoute une marge en bas */
-    border: none; /* Supprime la bordure */
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    border: none;
 }
 
-/* Styles pour les éléments du menu déroulant */
 .navbar .dropdown-item {
-    padding-top: 0.625rem; /* Ajoute un padding en haut */
-    padding-bottom: 0.625rem; /* Ajoute un padding en bas */
-    color: #5e6576; /* Définit la couleur du texte */
-    font-weight: 600; /* Définit le poids de la police */
-    font-size: 0.875rem; /* Définit la taille de la police */
-    line-height: 0.875rem; /* Définit la hauteur de ligne */
-    text-decoration: none; /* Supprime la décoration du texte */
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    color: #5e6576;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 0.875rem;
+    text-decoration: none;
 }
 
-/* Styles pour les éléments du menu déroulant lorsqu'ils sont survolés */
 .navbar .dropdown-item:hover {
-    color: #0092ff; /* Définit la couleur du texte */
+    color: #0092ff;
 }
 
-/* Styles pour le séparateur du menu déroulant */
 .navbar .dropdown-divider {
-    width: 100%; /* Définit la largeur à 100% */
-    height: 1px; /* Définit la hauteur à 1px */
-    margin: 0.5rem auto 0.5rem auto; /* Ajoute une marge en haut et en bas */
-    border: none; /* Supprime la bordure */
+    width: 100%;
+    height: 1px;
+    margin: 0.5rem auto 0.5rem auto;
+    border: none;
 }
 
-/* Styles pour le bouton de la barre de navigation */
 .navbar .navbar-toggler {
-    padding: 0; /* Supprime le padding */
-    border: none; /* Supprime la bordure */
-    font-size: 1.25rem; /* Définit la taille de la police */
+    padding: 0;
+    border: none;
+    font-size: 1.25rem;
 }
 
 /*************************/
 /*     Media Queries     */
 /*************************/
 
-/* Styles pour les écrans avec une largeur minimale de 768px */
 @media (min-width: 768px) {
-    /* Styles pour l'en-tête */
     .header {
-        padding-top: 9rem; /* Ajoute un padding en haut */
-        padding-bottom: 5em; /* Ajoute un padding en bas */
+        padding-top: 9rem;
+        padding-bottom: 5em;
     }
 
     .header .h1-large {
-        font-size: 3.25rem; /* Définit la taille de la police */
-        line-height: 3.75rem; /* Définit la hauteur de ligne */
+        font-size: 3.25rem;
+        line-height: 3.75rem;
     }
 
-    /* fin de l'en-tête */
-    /* Statistiques */
     .counter .counter-cell {
         display: inline-block;
         margin-right: 1.5rem;
@@ -152,12 +134,7 @@ html {
         vertical-align: top;
     }
 
-    /* fin des statistiques */
-    /* fin de min-width 768px */
-    /* Min-width 992px */
     @media (min-width: 992px) {
-
-        /* Styles généraux */
         .h2-heading {
             width: 35.25rem;
             margin-right: auto;
@@ -170,8 +147,6 @@ html {
             margin-left: auto;
         }
 
-        /* fin des styles généraux */
-        /* Navigation */
         .navbar {
             padding-top: 1.75rem;
             box-shadow: none;
@@ -227,8 +202,6 @@ html {
             margin-left: 1rem;
         }
 
-        /* fin de la navigation */
-        /* En-tête */
         .header {
             text-align: -webkit-right;
         }
@@ -252,8 +225,6 @@ html {
             margin-right: 0.5rem;
         }
 
-        /* fin de l'en-tête */
-        /* compétences */
         .cards-1 .card {
             display: inline-block;
             width: 286px;
@@ -265,8 +236,6 @@ html {
             margin-left: 2rem;
         }
 
-        /* fin des compétences */
-        /* Détails 1 */
         .basic-1 .image-container {
             margin-bottom: 0;
         }
@@ -275,15 +244,11 @@ html {
             margin-top: 2rem;
         }
 
-        /* fin des détails 1 */
-        /* Détails 2 */
         .basic-2 .text-container {
             margin-top: 3rem;
             margin-bottom: 0;
         }
 
-        /* fin des détails 2 */
-        /* réalisations */
         .cards-2 .card {
             display: inline-block;
             width: 298px;
@@ -296,16 +261,12 @@ html {
             margin-left: 1rem;
         }
 
-        /* fin des réalisations */
-        /* Pied de page */
         .footer h4 {
             width: 46rem;
             margin-right: auto;
             margin-left: auto;
         }
 
-        /* fin du pied de page */
-        /* Droits d'auteur */
         .copyright {
             text-align: left;
         }
@@ -319,18 +280,11 @@ html {
             text-align: right;
         }
 
-        /* fin des droits d'auteur */
-        /* fin de min-width 992px */
-        /* Min-width 1200px */
         @media (min-width: 1200px) {
-
-            /* Styles généraux */
             .container {
                 max-width: 1140px;
             }
 
-            /* fin des styles généraux */
-            /* En-tête */
             .header {
                 overflow: hidden;
                 padding-top: 18rem;
@@ -352,8 +306,6 @@ html {
                 max-width: 30rem;
             }
 
-            /* fin de l'en-tête */
-            /* Services */
             .cards-1 .card {
                 width: 310px;
             }
@@ -363,15 +315,11 @@ html {
                 margin-left: 5.5rem;
             }
 
-            /* fin des services */
-            /* Détails 1 */
             .basic-1 .text-container {
                 margin-top: 5rem;
                 margin-left: 2.75rem;
             }
 
-            /* fin des détails 1 */
-            /* Détails 2 */
             .basic-2 .text-container {
                 margin-top: 6rem;
                 margin-right: 3rem;
@@ -381,8 +329,6 @@ html {
                 text-align: right;
             }
 
-            /* fin des détails 2 */
-            /* Fonctionnalités */
             .accordion-1 .accordion {
                 margin-bottom: 0;
             }
@@ -391,8 +337,6 @@ html {
                 text-align: right;
             }
 
-            /* fin des fonctionnalités */
-            /* Témoignages */
             .cards-2 .card {
                 width: 356px;
             }
@@ -402,15 +346,11 @@ html {
                 margin-left: 1.125rem;
             }
 
-            /* fin des témoignages */
-            /* Invitation */
             .basic-3 .text-container {
                 padding-top: 8rem;
                 padding-bottom: 8.5rem;
             }
 
-            /* fin de l'invitation */
-            /* Contact */
             .form-1 .text-container {
                 margin-top: 1.5rem;
                 margin-right: 2.75rem;
@@ -420,15 +360,9 @@ html {
                 margin-left: 2.75rem;
             }
 
-            /* fin du contact */
-            /* Pied de page */
             .footer .decoration-circles {
                 left: 0;
             }
-
-            /* fin du pied de page */
         }
     }
 }
-
-/* fin de min-width 1200px */

@@ -18,6 +18,9 @@
           <li class="nav-item">
             <a class="nav-link" href="#manifest">Manifeste</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
         </ul>
         <span class="nav-item">
           <a class="btn btn-danger" href="#contact">Rejoignez-nous !</a>
