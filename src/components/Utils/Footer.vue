@@ -1,7 +1,7 @@
 <template>
   <footer class="footer">
     <div class="footer-content">
-      <span>&copy; 2023 Les Choupettes Corporation</span>
+      <span>&copy; 2025 Les Choupettes Corporation</span>
       <span><a href="/cgu">Conditions Générales d'Utilisation</a></span>
     </div>
   </footer>
