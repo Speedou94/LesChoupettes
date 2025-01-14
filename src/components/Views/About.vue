@@ -1,5 +1,5 @@
 <template>
-  <div id="About" class="basic-1">
+  <div id="about" class="basic-1">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 col-xl-7">
@@ -120,20 +120,20 @@ export default {
   justify-content: space-between;
   align-items: center;
   margin-top: 20rem;
-    background-color: rgba(255, 255, 255, 0.1);
-      /* Couleur de fond semi-transparente */
-      border: none;
-      /* Supprime les bordures */
-      text-align: left;
-      /* Aligne le texte à gauche */
-      padding: 1rem;
-      /* Ajoute un padding pour le contenu */
-      backdrop-filter: blur(10px);
-      /* Applique un flou à l'arrière-plan */
-      -webkit-backdrop-filter: blur(10px);
-      /* Support pour Safari */
-      border-radius: 10px;
-      /* Ajoute des coins arrondis */
+  background-color: rgba(255, 255, 255, 0.1);
+  /* Couleur de fond semi-transparente */
+  border: none;
+  /* Supprime les bordures */
+  text-align: left;
+  /* Aligne le texte à gauche */
+  padding: 1rem;
+  /* Ajoute un padding pour le contenu */
+  backdrop-filter: blur(10px);
+  /* Applique un flou à l'arrière-plan */
+  -webkit-backdrop-filter: blur(10px);
+  /* Support pour Safari */
+  border-radius: 10px;
+  /* Ajoute des coins arrondis */
 }
 
 /* Styles pour la galerie */

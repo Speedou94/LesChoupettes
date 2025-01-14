@@ -1,5 +1,5 @@
 <template>
-  <section id="Manifest" class="header">
+  <section id="manifest" class="header">
     <div class="container">
       <header class="text-center mb-5">
         <div class="Manifest"></div>

@@ -1,11 +1,6 @@
 <template>
-  <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-light" aria-label="Main navigation">
+  <nav id="navbar" class="navbar navbar-expand-lg fixed-top" aria-label="Main navigation">
     <div class="container">
-      <button class="navbar-toggler p-0 border-0" type="button" data-toggle="collapse"
-        data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
       <div class="collapse navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav ms-auto navbar-nav-scroll">
           <li class="nav-item">
@@ -20,9 +15,11 @@
           <li class="nav-item">
             <a class="nav-link" href="#manifest">Manifeste</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Rejoignez-nous !</a>
+          </li>
         </ul>
         <span class="nav-item">
-          <a class="btn btn-danger" href="#contact">Rejoignez-nous !</a>
         </span>
       </div>
     </div>
@@ -45,8 +42,12 @@ export default {
 </style>
 
 <style>
-/* Ajoutez ce CSS globalement, par exemple dans votre fichier styles.css */
-html {
-  scroll-behavior: smooth;
+.navbar {
+  background-color: rgba(255, 255, 255, 0.1);
+  /* Couleur de fond semi-transparente */
+  padding: 1rem;
+  /* Ajoute un padding pour le contenu */
+  backdrop-filter: blur(10px);
+  /* Applique un flou à l'arrière-plan */
 }
 </style>

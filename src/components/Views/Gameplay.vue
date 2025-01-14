@@ -1,5 +1,5 @@
 <template>
-  <section id="Gameplay" class="basic-2">
+  <section id="gameplay" class="basic-2">
     <div class="container text-center">
       <header class="mb-4">
         <h1 class="title">Nos missions</h1>
