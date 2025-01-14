@@ -13,24 +13,24 @@
           <p>Le <strong>Salvage et le Minage</strong>, deux gameplay assez important dans l'avenir de Star Citizen.
             L'implantation du basebuilding demandera nombre de ressources. Nous commencons à nous mettre à la page
             concernant ces gameplay la.</p>
-          <img class="img-fluid same-size" src="/assets/images/Salvage.png" alt="Vultures pendant du Salvage" />
+          <img class="img-fluid same-size" src="/assets/images/Salvage.webp" alt="Vultures pendant du Salvage" />
         </div>
         <div class="mb-4">
           <h2>Le combat au sol, ou FPS</h2>
           <p>Le FPS, que ce soit en bunker, assault sur épave ou même dans les nouvelles zones contéstées sur Pyro fait
             parti intégrante du gameplay général de la [LCS]. N'hésitez pas à sortir votre plus beau fusil et à venir
             jouer au tir aux pigeons avec nous !</p>
-          <img class="img-fluid same-size" src="/assets/images/FPS.jpg" alt="Débarquement de joueurs armés" />
+          <img class="img-fluid same-size" src="/assets/images/FPS.webp" alt="Débarquement de joueurs armés" />
         </div>
         <div class="mb-4">
           <h2>Le combat dans les airs</h2>
-          <img class="img-fluid same-size" src="/assets/images/Dogfight.jpg" alt="Combat de vaisseaux spaciaux" />
+          <img class="img-fluid same-size" src="/assets/images/Dogfight.webp" alt="Combat de vaisseaux spaciaux" />
         </div>
         <div class="mb-4">
           <h2>Le Commerce</h2>
           <p>Venez avec nous découvrir Stanton et Pyro lors de session de commerce entre ces deux univers. Amusez vous,
             ramenez un max de caisses pour vous coucher sur un lit de billet !</p>
-          <img class="img-fluid same-size" src="/assets/images/HullC.jpg" alt="Combat de vaisseaux spaciaux" />
+          <img class="img-fluid same-size" src="/assets/images/HullC.webp" alt="Combat de vaisseaux spaciaux" />
         </div>
       </article>
     </div>

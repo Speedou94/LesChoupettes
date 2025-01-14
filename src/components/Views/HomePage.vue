@@ -5,9 +5,9 @@
       Your browser does not support the video tag.
     </video>
     <div class="content">
-      <img src="/assets/images/LCSB.png" alt="LCS Logo" class="logo">
+      <img src="/assets/images/LCSB.webp" alt="LCS Logo" class="logo">
 
-      <img src="/assets/images/LCSLogo.png" alt="LCS Logo" class="logo">
+      <img src="/assets/images/LCSLogo.webp" alt="LCS Logo" class="logo">
       <button class="btn btn-primary" @click="enterSite">Entrer sur le site</button>
     </div>
 
