@@ -63,23 +63,23 @@ export default {
       // Liste des photos pour la galerie
       photos: [
         {
-          thumbnail: 'https://cdn.discordapp.com/attachments/1072724825564512437/1321986265461293097/Squadron_42_-_Star_Citizen_Screenshot_2024.12.27_-_00.41.00.37.png?ex=678258e7&is=67810767&hm=011266adb34a3636ac7b67e90dbaed24bd100296e7a362c41c34add86d408752&',  // Vignette
-          fullSize: 'https://cdn.discordapp.com/attachments/1072724825564512437/1321986265461293097/Squadron_42_-_Star_Citizen_Screenshot_2024.12.27_-_00.41.00.37.png?ex=678258e7&is=67810767&hm=011266adb34a3636ac7b67e90dbaed24bd100296e7a362c41c34add86d408752&',   // Image en taille réelle
+          thumbnail: '/public/assets/images/Judi1.webp',  // Vignette
+          fullSize: '/public/assets/images/Judi1.webp',   // Image en taille réelle
           alt: 'Deux joueurs assis dans un vaisseau'
         },
         {
-          thumbnail: 'https://cdn.discordapp.com/attachments/1072724825564512437/1322896475541344317/ScreenShot-2024-12-29_12-26-53-693.jpg?ex=67825cd9&is=67810b59&hm=b5f8b0ba1a76107f66058e2ba7564ac469e4e023f4e6df1482f88b7dbf8f8b56&',  // Vignette
-          fullSize: 'https://cdn.discordapp.com/attachments/1072724825564512437/1322896475541344317/ScreenShot-2024-12-29_12-26-53-693.jpg?ex=67825cd9&is=67810b59&hm=b5f8b0ba1a76107f66058e2ba7564ac469e4e023f4e6df1482f88b7dbf8f8b56&',   // Image en taille réelle
+          thumbnail: '/public/assets/images/Judi.webp',  // Vignette
+          fullSize: '/public/assets/images/Judi.webp',   // Image en taille réelle
           alt: 'Judi dans son vaisseau'
         },
         {
-          thumbnail: 'https://cdn.discordapp.com/attachments/1072724825564512437/1322896476044529725/ScreenShot-2024-12-29_12-54-03-570.jpg?ex=67825cda&is=67810b5a&hm=bd1d31c256df1e5eca1b471c3379b6fad3c22262e9ab25ad0808d56f07c7637a&',  // Vignette
-          fullSize: 'https://cdn.discordapp.com/attachments/1072724825564512437/1322896476044529725/ScreenShot-2024-12-29_12-54-03-570.jpg?ex=67825cda&is=67810b5a&hm=bd1d31c256df1e5eca1b471c3379b6fad3c22262e9ab25ad0808d56f07c7637a&',   // Image en taille réelle
+          thumbnail: '/public/assets/images/ShipCrash.webp',  // Vignette
+          fullSize: '/public/assets/images/ShipCrash.webp',   // Image en taille réelle
           alt: 'Judi dans son vaisseau sans casque '
         },
         {
-          thumbnail: 'https://cdn.discordapp.com/attachments/1072724825564512437/1320739818162094140/Star_Citizen_2024.12.07-23.27.png?ex=67826d4e&is=67811bce&hm=33d781f1b584bcf5fdce8775745c1cecda52b6384dda493b4a7a5016f809e04b&',  // Vignette
-          fullSize: 'https://cdn.discordapp.com/attachments/1072724825564512437/1320739818162094140/Star_Citizen_2024.12.07-23.27.png?ex=67826d4e&is=67811bce&hm=33d781f1b584bcf5fdce8775745c1cecda52b6384dda493b4a7a5016f809e04b&',   // Image en taille réelle
+          thumbnail: '',  // Vignette
+          fullSize: '',   // Image en taille réelle
           alt: 'Carrack Red Alerte'
         },
         {
@@ -134,6 +134,11 @@ export default {
   /* Support pour Safari */
   border-radius: 10px;
   /* Ajoute des coins arrondis */
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* Styles pour la galerie */
