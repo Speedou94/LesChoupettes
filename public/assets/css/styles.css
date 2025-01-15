@@ -9,12 +9,11 @@ html {
     font: 400 1rem/1.625rem "Open Sans", sans-serif;
     color: #ffffff;
     padding-top: 4rem;
-    background-image: url('/assets/images/wallpaper.webp');
+    background-image: url('/assets/images/wallpaper.webp'); /* Assurez-vous que l'image existe à cet emplacement */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-      scroll-behavior: smooth;
-
+    scroll-behavior: smooth;
 }
 
 .btn-solid-reg:hover {

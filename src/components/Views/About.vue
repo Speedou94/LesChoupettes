@@ -63,34 +63,34 @@ export default {
       // Liste des photos pour la galerie
       photos: [
         {
-          thumbnail: '/public/assets/images/Judi1.webp',  // Vignette
-          fullSize: '/public/assets/images/Judi1.webp',   // Image en taille réelle
-          alt: 'Deux joueurs assis dans un vaisseau'
+          thumbnail: '/assets/images/Judi1.webp',  // Vignette
+          fullSize: '/assets/images/Judi1.webp',   // Image en taille réelle
+          alt: 'Judi dans son vaisseau sans casque'
         },
         {
-          thumbnail: '/public/assets/images/Judi.webp',  // Vignette
-          fullSize: '/public/assets/images/Judi.webp',   // Image en taille réelle
+          thumbnail: '/assets/images/Judi2.webp',  // Vignette
+          fullSize: '/assets/images/Judi2.webp',   // Image en taille réelle
           alt: 'Judi dans son vaisseau'
         },
         {
-          thumbnail: '/public/assets/images/ShipCrash.webp',  // Vignette
-          fullSize: '/public/assets/images/ShipCrash.webp',   // Image en taille réelle
-          alt: 'Judi dans son vaisseau sans casque '
+          thumbnail: '/assets/images/ShipCrash.webp',  // Vignette
+          fullSize: '/assets/images/ShipCrash.webp',   // Image en taille réelle
+          alt: 'Un joueur devant un vaisseau écrasé'
         },
         {
-          thumbnail: '',  // Vignette
-          fullSize: '',   // Image en taille réelle
-          alt: 'Carrack Red Alerte'
+          thumbnail: '/assets/images/Volrex1.webp',  // Vignette
+          fullSize: '/assets/images/Volrex1.webp',   // Image en taille réelle
+          alt: 'Deux joueurs assis dans un vaisseau'
         },
         {
-          thumbnail: 'https://cdn.discordapp.com/attachments/1072724825564512437/1320739821123145748/Star_Citizen_2024.12.22-21.11_15.png?ex=67826d4f&is=67811bcf&hm=4e91934bd7915d5ec65f76b9438d8eaaf0800f9bf53fa6f99535dae96c55cf20&',  // Vignette
-          fullSize: 'https://cdn.discordapp.com/attachments/1072724825564512437/1320739821123145748/Star_Citizen_2024.12.22-21.11_15.png?ex=67826d4f&is=67811bcf&hm=4e91934bd7915d5ec65f76b9438d8eaaf0800f9bf53fa6f99535dae96c55cf20&',   // Image en taille réelle
-          alt: 'Un vaisseau dans le jump point'
+          thumbnail: '/assets/images/StarlancerMax.webp',  // Vignette
+          fullSize: '/assets/images/StarlancerMax.webp',   // Image en taille réelle
+          alt: 'Un Starlancer Max dans le ciel'
         },
         {
-          thumbnail: 'https://cdn.discordapp.com/attachments/1072724825564512437/1320415846044008528/ScreenShot-2024-12-22_16-39-21-4A2.jpg?ex=6781e855&is=678096d5&hm=04025fc7f5bc60e4f0c669a600bf0fd2d674cc8bfd7385a12a1b85c8f2594817&',  // Vignette
-          fullSize: 'https://cdn.discordapp.com/attachments/1072724825564512437/1320415846044008528/ScreenShot-2024-12-22_16-39-21-4A2.jpg?ex=6781e855&is=678096d5&hm=04025fc7f5bc60e4f0c669a600bf0fd2d674cc8bfd7385a12a1b85c8f2594817&',   // Image en taille réelle
-          alt: 'Un joueur en combinaison lourde'
+          thumbnail: '/assets/images/DuoF7a.webp',  // Vignette
+          fullSize: '/assets/images/DuoF7a.webp',   // Image en taille réelle
+          alt: 'Deux F7A en stationnaire'
         }
         // Ajoute d'autres images ici si nécessaire
       ],
@@ -122,16 +122,10 @@ export default {
   margin-top: 20rem;
   background-color: rgba(255, 255, 255, 0.1);
   /* Couleur de fond semi-transparente */
-  border: none;
-  /* Supprime les bordures */
   text-align: left;
   /* Aligne le texte à gauche */
-  padding: 1rem;
-  /* Ajoute un padding pour le contenu */
   backdrop-filter: blur(10px);
   /* Applique un flou à l'arrière-plan */
-  -webkit-backdrop-filter: blur(10px);
-  /* Support pour Safari */
   border-radius: 10px;
   /* Ajoute des coins arrondis */
 }
@@ -215,9 +209,6 @@ export default {
   margin-bottom: 4rem;
 }
 
-.basic-1 h2 {
-  margin-bottom: 1.75rem;
-}
 
 .basic-1 p {
   margin-bottom: 2rem;

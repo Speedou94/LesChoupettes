@@ -39,9 +39,7 @@ export default {
   visibility: visible;
   transform: translateX(0);
 }
-</style>
 
-<style>
 .navbar {
   background-color: rgba(255, 255, 255, 0.1);
   /* Couleur de fond semi-transparente */

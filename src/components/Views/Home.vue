@@ -33,13 +33,4 @@ export default {
 .container {
   display: flex;
 }
-
-.header .p-large {
-  margin-bottom: 2rem;
-  ;
-}
-
-.header .image-container {
-  margin-bottom: 5rem;
-}
 </style>

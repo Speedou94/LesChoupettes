@@ -48,20 +48,13 @@ export default {
 .container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   margin-top: 20rem;
   background-color: rgba(255, 255, 255, 0.1);
   /* Couleur de fond semi-transparente */
-  border: none;
-  /* Supprime les bordures */
-  text-align: left;
-  /* Aligne le texte à gauche */
   padding: 1rem;
   /* Ajoute un padding pour le contenu */
   backdrop-filter: blur(10px);
   /* Applique un flou à l'arrière-plan */
-  -webkit-backdrop-filter: blur(10px);
-  /* Support pour Safari */
   border-radius: 10px;
   /* Ajoute des coins arrondis */
 }
@@ -78,9 +71,7 @@ export default {
   height: auto;
 }
 
-.btn-danger {
-  margin: 2rem 0;
-  width: 20rem;
-  text-align: center;
+.img-fluid {
+  border-radius: 10px;
 }
 </style>
