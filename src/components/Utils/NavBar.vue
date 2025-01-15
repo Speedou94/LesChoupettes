@@ -1,27 +1,31 @@
 <template>
   <nav id="navbar" class="navbar navbar-expand-lg fixed-top" aria-label="Main navigation">
-    <div class="container">
-      <div class="collapse navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav ms-auto navbar-nav-scroll">
-          <li class="nav-item">
-            <a class="nav-link" href="#home">Accueil</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">Qui sommes-nous ?</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#gameplay">Notre gameplay</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#manifest">Manifeste</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Rejoignez-nous !</a>
-          </li>
-        </ul>
-        <span class="nav-item">
-        </span>
-      </div>
+    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse" id="navbarNavAltMarkup">
+      <ul class="navbar-nav ms-auto navbar-nav-scroll">
+
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">Qui sommes-nous ?</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#gameplay">Notre gameplay</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#manifest">Manifeste</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Rejoignez-nous !</a>
+        </li>
+      </ul>
+      <span class="nav-item">
+      </span>
     </div>
   </nav>
 </template>
