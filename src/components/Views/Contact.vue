@@ -26,10 +26,10 @@
           </div>
         </div>
         <div class="col-lg-6">
-          <img src="/assets/images/Join-US.webp" alt="Contact Image" class="img-fluid" />
-        </div>
-        <div class="form-group">
-          <a class="btn btn-primary" href="https://discord.gg/5Hu8aafm" target="_blank">Engagez-vous !</a><br />
+          <img src="/assets/images/LCSB.webp" alt="Contact Image" class="img-fluid logo" />
+          <a href="https://discord.gg/5Hu8aafm" target="_blank">
+            <img src="/assets/images/join.webp" alt="Engagez-vous" class="img-fluid join-image" />
+          </a>
         </div>
       </div>
     </div>
@@ -82,5 +82,10 @@ export default {
   max-width: 100%;
   height: auto;
   /* Assure que l'image est responsive */
+}
+
+.col-lg-6 {
+  display: flex;
+  flex-direction: column-reverse;
 }
 </style>
