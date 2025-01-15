@@ -1,7 +1,7 @@
 <template>
   <section id="gameplay" class="basic-2">
     <div class="container text-center">
-      <header class="mb-4">
+      <header class="col-lg-8 mx-auto">
         <h1 class="title">Nos missions</h1>
         <h2 class="title2">Toujours en équipe, toujours dans la bonne humeur</h2>
         <!-- Ajout du target="_blank" pour ouvrir le lien dans un nouvel onglet -->
