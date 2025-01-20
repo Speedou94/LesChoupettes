@@ -99,23 +99,30 @@ var imageSlider = new Swiper('.image-slider', {
 });
 
 
-/* Back To Top Button */
-// Get the button
-myButton = document.getElementById("myBtn");
+document.addEventListener('DOMContentLoaded', function () {
+  // Get the button
+  const myButton = document.getElementById("myBtn");
 
-// When the user scrolls down 20px from the top of the document, show the button
-function scrollFunctionBTT() {
-	if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-		myButton.style.display = "block";
-	} else {
-		myButton.style.display = "none";
-	}
-}
+  // Vérifiez si l'élément existe avant de manipuler ses propriétés
+  if (myButton) {
+    // When the user scrolls down 20px from the top of the document, show the button
+    function scrollFunctionBTT() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        myButton.style.display = "block";
+      } else {
+        myButton.style.display = "none";
+      }
+    }
 
-// When the user clicks on the button, scroll to the top of the document
-document.getElementById('myBtn').onclick = topFunction;
-function topFunction() {
-	document.body.scrollTop = 0; // for Safari
-	document.documentElement.scrollTop = 0; // for Chrome, Firefox, IE and Opera
-}
-}, 500);
+    // When the user clicks on the button, scroll to the top of the document
+    myButton.onclick = function () {
+      document.body.scrollTop = 0; // for Safari
+      document.documentElement.scrollTop = 0; // for Chrome, Firefox, IE and Opera
+    };
+
+    // Ajoutez l'écouteur d'événement pour le défilement
+    window.onscroll = function () {
+      scrollFunctionBTT();
+    };
+  }
+});

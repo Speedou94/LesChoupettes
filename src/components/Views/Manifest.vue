@@ -45,15 +45,13 @@
                 L’organisation s’engage à traiter avec respect et égalité ses membres et sympathisants. Il est attendu
                 en retour le même respect entre membres, sympathisants, alliés et envers le staff.
                 Les règles de bonne conduite et de politesse sont la base de toutes communications.
-
               </p>
             </div>
           </div>
         </div>
-        <!-- Ajoutez d'autres cartes ici si nécessaire -->
         <div class="col-md-4">
           <div class="card mb-4 border-4">
-            <div class="Rangs - text-center">
+            <div class="Rangs text-center">
               <h2 class="card-text">Les Rangs</h2>
               <p class="text-center"> <strong>Pourquoi Les Choupettes ?</strong>
                 Unis par une fraternité indéfectible, ils forment une famille, une meute prête à se sacrifier pour l’un
@@ -71,7 +69,6 @@
         </div>
       </div>
     </div>
-
   </section>
 </template>
 
@@ -83,40 +80,25 @@ export default {
 
 <style scoped>
 /* Styles pour le conteneur principal */
-
 .Row {
   background-color: rgba(255, 255, 255, 0.1);
-  /* Couleur de fond semi-transparente */
   border: none;
-  /* Supprime les bordures */
   text-align: left;
-  /* Aligne le texte à gauche */
   padding: 1rem;
-  /* Ajoute un padding pour le contenu */
   backdrop-filter: blur(10px);
-  /* Applique un flou à l'arrière-plan */
   -webkit-backdrop-filter: blur(10px);
-  /* Support pour Safari */
   border-radius: 10px;
-  /* Ajoute des coins arrondis */
 }
 
 /* Styles pour les cartes */
 .card {
   background-color: rgba(255, 255, 255, 0.1);
-  /* Couleur de fond semi-transparente */
   border: none;
-  /* Supprime les bordures */
   text-align: left;
-  /* Aligne le texte à gauche */
   padding: 1rem;
-  /* Ajoute un padding pour le contenu */
   backdrop-filter: blur(10px);
-  /* Applique un flou à l'arrière-plan */
   -webkit-backdrop-filter: blur(10px);
-  /* Support pour Safari */
   border-radius: 10px;
-  /* Ajoute des coins arrondis */
 }
 
 /* Styles pour les liens */
