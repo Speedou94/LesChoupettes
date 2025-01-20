@@ -2,7 +2,9 @@
   <footer class="footer">
     <div class="footer-content">
       <span>&copy; 2025 Les Choupettes Corporation</span>
-      <span><a href="/cgu">Conditions Générales d'Utilisation</a></span>
+      <span><a
+          href="https://www.captaincontrat.com/contrats-commerciaux-cgv/cgv-cgu-cga/cgu-conditions-generales-utilisation">Conditions
+          Générales d'Utilisation</a></span>
     </div>
   </footer>
 </template>
