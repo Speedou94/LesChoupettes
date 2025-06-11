@@ -2,7 +2,7 @@
   <div class="home-page">
     <div class="content">
       <img :src="logoUrl" alt="LCS Logo" class="logo">
-      <img :src="logoUrl" alt="LCS Logo" class="logo">
+      <img :src="logoUrl2" alt="LCS Logo" class="logo">
       <button class="btn btn-primary rounded-pill" @click="enterSite">Entrer sur le site</button>
     </div>
   </div>
