@@ -13,7 +13,8 @@ export default {
   name: "HomePage",
   data() {
     return {
-      logoUrl: `${process.env.BASE_URL}assets/images/LCSLogo.webp`
+      logoUrl: `${process.env.BASE_URL}assets/images/LCSLogo.webp`,
+      logoUrl2: `${process.env.BASE_URL}assets/images/LCSB.webp`
     };
   },
   methods: {
