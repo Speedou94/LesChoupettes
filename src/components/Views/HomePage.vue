@@ -4,7 +4,7 @@
       <img src="/assets/images/LCSB.webp" alt="LCS Logo" class="logo">
 
       <img src="/assets/images/LCSLogo.webp" alt="LCS Logo" class="logo">
-      <button class="btn btn-primary" @click="enterSite">Entrer sur le site</button>
+      <button class="btn btn-primary rounded-pill" @click="enterSite">Entrer sur le site</button>
     </div>
 
   </div>
@@ -29,16 +29,6 @@ export default {
   width: 100%;
   height: 100%;
   overflow: hidden;
-}
-
-#background-video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -1;
 }
 
 .content {
