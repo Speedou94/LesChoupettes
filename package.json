@@ -1,5 +1,5 @@
 {
-  "name": "Les_Choupettes",
+  "name": "LesChoupettes",
   "version": "0.0.1",
   "scripts": {
     "serve": "vue-cli-service serve",
