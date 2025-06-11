@@ -1,9 +1,9 @@
 <template>
   <div class="home-page">
     <div class="content">
-      <img src="/assets/images/LCSB.webp" alt="LCS Logo" class="logo">
+      <img src="require('@/assets/images/LCSLogo.webp')" alt="LCS Logo" class="logo">
 
-      <img src="/assets/images/LCSLogo.webp" alt="LCS Logo" class="logo">
+      <img src="require('@/assets/images/LCSLogo.webp')" alt="LCS Logo" class="logo">
       <button class="btn btn-primary rounded-pill" @click="enterSite">Entrer sur le site</button>
     </div>
 
