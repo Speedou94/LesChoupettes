@@ -1,9 +1,5 @@
 <template>
   <div class="home-page">
-    <video autoplay muted loop id="background-video">
-      <source src="/assets/video/SCTrailer.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
     <div class="content">
       <img src="/assets/images/LCSB.webp" alt="LCS Logo" class="logo">
 
