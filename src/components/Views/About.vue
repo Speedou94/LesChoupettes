@@ -93,19 +93,19 @@ export default {
           alt: 'Deux F7A en stationnaire'
         },
         {
-          thumbnail: '/assets/images/DuoF7a.webp',  // Vignette
-          fullSize: '/assets/images/DuoF7a.webp',   // Image en taille réelle
-          alt: 'Deux F7A en stationnaire'
+          thumbnail: '/assets/images/Payji_food.webp',  // Vignette
+          fullSize: '/assets/images/Payji_food.webp',   // Image en taille réelle
+          alt: 'Vendeur de nourriture Payji'
         },
         {
-          thumbnail: '/assets/images/DuoF7a.webp',  // Vignette
-          fullSize: '/assets/images/DuoF7a.webp',   // Image en taille réelle
-          alt: 'Deux F7A en stationnaire'
+          thumbnail: '/assets/images/PyroStation.webp',  // Vignette
+          fullSize: '/assets/images/PyroStation.webp',   // Image en taille réelle
+          alt: 'Valkyrie devant une station Pyro'
         },
         {
-          thumbnail: '/assets/images/DuoF7a.webp',  // Vignette
-          fullSize: '/assets/images/DuoF7a.webp',   // Image en taille réelle
-          alt: 'Deux F7A en stationnaire'
+          thumbnail: '/assets/images/DulcoMX.webp',  // Vignette
+          fullSize: '/assets/images/DulcoMX.webp',   // Image en taille réelle
+          alt: 'Joueur devant un Guardian MX'
         }
       ],
       isModalOpen: false,    // Contrôle l'état du modal
