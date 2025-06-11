@@ -9,7 +9,7 @@ html {
   font: 400 1rem/1.625rem "Open Sans", sans-serif;
   color: #ffffff;
   padding-top: 4rem;
-  background-image: url("../images/station.webp"); /* <-- Correction ici */
+  background-image: url("/LesChoupettes/assets/images/station.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
