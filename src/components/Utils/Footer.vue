@@ -17,15 +17,13 @@ export default {
 
 <style scoped>
 .footer {
-  padding-top: 1.5rem;
+  padding: 1.5rem;
   border-top: 1px solid #d0dae2;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.1);
   /* Couleur de fond semi-transparente */
   border: none;
   /* Supprime les bordures */
-  padding: 1rem;
-  /* Ajoute un padding pour le contenu */
   backdrop-filter: blur(10px);
   /* Applique un flou à l'arrière-plan */
   -webkit-backdrop-filter: blur(10px);
