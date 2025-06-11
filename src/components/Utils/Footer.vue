@@ -5,6 +5,7 @@
       <span><a
           href="https://www.captaincontrat.com/contrats-commerciaux-cgv/cgv-cgu-cga/cgu-conditions-generales-utilisation">Conditions
           Générales d'Utilisation</a></span>
+      <span><a href="https://tinkerbell-web-solution.fr">From Tinkerbell Web Solution with &#9825;</a></span>
     </div>
   </footer>
 </template>

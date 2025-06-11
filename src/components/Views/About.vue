@@ -91,8 +91,22 @@ export default {
           thumbnail: '/assets/images/DuoF7a.webp',  // Vignette
           fullSize: '/assets/images/DuoF7a.webp',   // Image en taille réelle
           alt: 'Deux F7A en stationnaire'
+        },
+        {
+          thumbnail: '/assets/images/DuoF7a.webp',  // Vignette
+          fullSize: '/assets/images/DuoF7a.webp',   // Image en taille réelle
+          alt: 'Deux F7A en stationnaire'
+        },
+        {
+          thumbnail: '/assets/images/DuoF7a.webp',  // Vignette
+          fullSize: '/assets/images/DuoF7a.webp',   // Image en taille réelle
+          alt: 'Deux F7A en stationnaire'
+        },
+        {
+          thumbnail: '/assets/images/DuoF7a.webp',  // Vignette
+          fullSize: '/assets/images/DuoF7a.webp',   // Image en taille réelle
+          alt: 'Deux F7A en stationnaire'
         }
-        // Ajoute d'autres images ici si nécessaire
       ],
       isModalOpen: false,    // Contrôle l'état du modal
       selectedPhoto: {}      // Photo sélectionnée pour agrandissement
