@@ -8,14 +8,14 @@
             <div class="gallery-grid">
               <!-- Boucle sur les images pour afficher les vignettes -->
               <div v-for="(photo, index) in photos" :key="index" class="gallery-item" @click="openModal(photo)">
-                <img :src="photo.thumbnail" :alt="photo.alt" class="gallery-image" />
+                <img :src="photo.thumbnail" :alt="icon" class="gallery-image" />
               </div>
             </div>
 
             <!-- Modal d'image agrandie -->
             <div v-if="isModalOpen" class="modal" @click="closeModal">
               <div class="modal-content">
-                <img :src="selectedPhoto.fullSize" :alt="selectedPhoto.alt" />
+                <img :src="selectedPhoto.fullSize" :alt="Full" />
               </div>
             </div>
           </div>
