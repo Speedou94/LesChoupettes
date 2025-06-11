@@ -26,7 +26,7 @@
           </div>
         </div>
         <div class="col-lg-6">
-          <img src="/assets/images/LCSB.webp" alt="Contact Image" class="img-fluid logo" />
+          <img src="/assets/images/LCSB.webp" alt="Contact" class="img-fluid logo" />
           <a href="https://discord.gg/5Hu8aafm" target="_blank">
             <img src="/assets/images/join.webp" alt="Engagez-vous" class="img-fluid join-image" />
           </a>

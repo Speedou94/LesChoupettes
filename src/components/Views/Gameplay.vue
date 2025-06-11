@@ -4,8 +4,8 @@
       <header class="col-lg-8 mx-auto">
         <h1 class="title">Nos missions</h1>
         <h2 class="title2">Toujours en équipe, toujours dans la bonne humeur</h2>
-        <!-- Ajout du target="_blank" pour ouvrir le lien dans un nouvel onglet -->
-        <a class="btn btn-primary my-4" href="https://fleetyards.net/fleets/lcs/ships/" target="_blank">Notre flotte</a>
+        <a class="btn btn-primary rounded-pill my-4" href="https://fleetyards.net/fleets/lcs/ships/"
+          target="_blank">Notre flotte</a>
       </header>
       <article class="Gameplayimg">
         <div class="mb-4">

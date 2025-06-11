@@ -11,9 +11,11 @@
             <div class="Infos text-center">
               <h2 class="card-text">Les informations importantes !</h2>
               <div class="btnlink">
-                <a class="btn btn-primary" href="https://robertsspaceindustries.com/orgs/LCSSC" target="_blank">Lien
+                <a class="btn btn-primary rounded-pill" href="https://robertsspaceindustries.com/orgs/LCSSC"
+                  target="_blank">Lien
                   RSI</a>
-                <a class="btn btn-primary" href="https://discord.gg/aUmVFhrXR2" target="_blank">Discord</a><br />
+                <a class="btn btn-primary rounded-pill" href="https://discord.gg/aUmVFhrXR2"
+                  target="_blank">Discord</a><br />
               </div>
               <p>
                 <strong>Archétype :</strong> Organisation <br />
@@ -36,7 +38,8 @@
                 <strong>Cette charte est appelée à évoluer selon les avancées du jeu, tout en respectant l’esprit qui y
                   est déjà présent.</strong> <br />
                 <strong>Conditions d’admission :</strong> <br /><br />
-                <a class="btn btn-primary" href="https://forms.gle/1eyGnrm4Zh3gCsSb8" target="_blank">Formulaire de
+                <a class="btn btn-primary rounded-pill" href="https://forms.gle/1eyGnrm4Zh3gCsSb8"
+                  target="_blank">Formulaire de
                   candidature</a><br /><br />
                 L’organisation accepte les joueurs de tous styles et de tous les niveaux d’engagement.
                 Nous n’imposons pas d’âge minimum, du moment que les échanges sont suffisamment mâtures et
